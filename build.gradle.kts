@@ -1,10 +1,10 @@
 plugins {
-    kotlin("jvm") version "1.8.22"
+    kotlin("jvm") version "1.9.24"
     id("maven-publish")
 }
 
 group = "com.github.sun5066"
-version = "1.0.1-SNAPSHOT"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.devtools.ksp:symbol-processing-api:1.8.22-1.0.11")
+    implementation("com.google.devtools.ksp:symbol-processing-api:1.9.24-1.0.20")
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
