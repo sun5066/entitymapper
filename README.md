@@ -58,8 +58,8 @@ plugin {
 }
 
 dependencies {
-  implementation("com.github.sun5066:EntityMapper:1.0.3")
-  ksp("com.github.sun5066:EntityMapper:1.0.3")
+  implementation("com.github.sun5066:entitymapper:1.0.3")
+  ksp("com.github.sun5066:entitymapper:1.0.3")
 }
 ```
 
