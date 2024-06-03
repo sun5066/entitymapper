@@ -1,5 +1,7 @@
 # EntityMapper
 
+[![](https://jitpack.io/v/sun5066/entitymapper.svg)](https://jitpack.io/#sun5066/entitymapper)
+
 - `@EntityMapper` is an annotation that maps an entity class to a model class.
 - `@PropertyName` is an annotation that maps a field in the entity class to a field with a different name in the model class.
 
@@ -58,8 +60,8 @@ plugin {
 }
 
 dependencies {
-  implementation("com.github.sun5066:entitymapper:1.0.3")
-  ksp("com.github.sun5066:entitymapper:1.0.3")
+  implementation("com.github.sun5066:entitymapper:tag")
+  ksp("com.github.sun5066:entitymapper:tag")
 }
 ```
 
