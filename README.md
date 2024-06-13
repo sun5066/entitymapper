@@ -20,7 +20,7 @@ data class MemberEntity(
 }
 
 @EntityMapper(MemberEntity::class)
-data class MemberModel(
+data class MemberUIModel(
   val id: Int,
   val name: String,
   val age: Int,
@@ -40,7 +40,7 @@ data class MemberModel(
 If the build is successful, the following code will be generated.
 
 ```
-fun com.sun5066.core.entity.model.MemberModel(): com.sun5066.core.model.MemberEntity = com.sun5066.core.model.MemberModel(
+fun MemberEntity.toMemberUiModel() = MemberUiModel(
   id = id!!,
   name = name!!,
   age = age!!,
