@@ -20,7 +20,7 @@ data class MemberEntity(
 }
 
 @EntityMapper(MemberEntity::class)
-data class MemberUIModel(
+data class MemberUiModel(
   val id: Int,
   val name: String,
   val age: Int,
